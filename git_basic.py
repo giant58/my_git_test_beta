@@ -13,8 +13,12 @@
 	• 基本指令
         ○ git status   # 檢查目前目錄是否有更動
 		○ git add .   # 將目錄內所有檔案加到index (等候一次性更新 commit)
-		○ git commit -m "remark"   # 更新到local資料庫(加上remark易讀)
-        ○ git log   # 更新歷史
-        ○ git clone 數據庫網址  #
-        ○ git git push origin master  #
+		○ git commit -m "message"   # 更新到local資料庫(加上message易讀)
+        ○ git log   # 更新歷史 (用sourcetree看比較方便)
+    • 和GitHub連結
+		○ 先登入GitHub，然後點"New repository"
+			§ 命名repositiory，然後點"Create repository"
+            § 依push existing repository頁面說明輸入相對指定，將local目錄連結到遠端GitHub
+		○ git remote add 遠端名稱 遠端網址   # 設定remote repository
+        ○ git push -u 遠端名稱 本地名稱  #將local repository同步到remote repository
 '''
