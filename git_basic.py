@@ -22,7 +22,7 @@
 			§ git remote    # 檢查現在有哪些remote repository
             § git remote -v   #檢查現在有哪些remote repository與其網址
         ○ git push -u 遠端名稱 本地名稱  #將local repository同步到remote repository
-            § -u 是第一次push遠端名稱後要成為另一個branch以方便未來繼續push(就不需要再帶 -u的參數了)，未來push相同遠端名稱就不需要再帶 -u
+            § -u 是指預設要push到這個遠端名稱，所以之後用"git push"(不用帶後面兩個參數)就會直接push到這個遠端名稱
 
 其他指令:
 	• git config --global alias.ci commit   # 將git commit … 縮短成 git ci …
