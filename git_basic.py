@@ -17,4 +17,7 @@ Created on Sun Jul 21 11:02:10 2024
 		○ git config --list  # 顯示設定; (最後按'q'結束)
 	• 基本指令
         ○ git status   # 檢查目前目錄是否有更動
+		○ git add .   # 將目錄內所有檔案加到index (等候一次性更新 commit)
+		○ git commit -m "remark"   # 更新到local資料庫(加上remark易讀)
+        ○ git log   # 更新歷史
 '''
